@@ -1,9 +1,8 @@
-import { useState } from "react";
 import Player from "./components/Player.jsx";
 import TimerChallenge from "./components/TimerChallenge.jsx";
+import React from "react";
 
 function App() {
-  const [challenges, setChallenges] = useState([]);
   return (
     <>
       <Player />
